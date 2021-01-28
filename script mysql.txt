@@ -1,0 +1,11 @@
+create database academia;
+use academia;
+create table aluno(
+    id int auto_increment primary key not null,
+    nome VARCHAR(200),
+    idade int(3),
+    peso float(10),
+    altura float(10),
+    objetivo VARCHAR(200)
+);
+select * from aluno;
